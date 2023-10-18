@@ -1,0 +1,63 @@
+#scoreDiv{
+    background-color: aliceblue;
+    width: min-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+#szoveg{
+    width: min-content;
+    text-align: right;
+    height: 10px;
+}
+#fejlecDiv{
+    height: 4vw;
+    width: 60vh;
+    margin-left: auto;
+    margin-right: auto;
+    background: linear-gradient(to bottom, #042549, #081e36);
+    border-radius: 5px;
+    border: #081e36 solid 2px;
+    
+}
+body{
+
+    background: linear-gradient(to bottom, #042549, #081e36);
+    height: 100%;
+    width: 100%;
+    min-height: 95vh;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#megjelenit{
+    visibility: hidden;
+    width: 25%;
+    margin-top: 1cm;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+}
+
+.gombStyle{
+    border-radius: 100px;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    font-size: 300%;
+}
+
+#gameDiv{
+    width: 250px;
+    margin-top: 1cm;
+    height: 190px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.floatDiv{
+    float: left;
+    margin: 20px;
+}
+#nyertE{
+    text-align: center;
+}

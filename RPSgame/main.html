@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="fejlecDiv">
+        <p id="szoveg">Rock Papper Scissors</p>
+
+        <div id="scoreDiv">
+            <p>Score <span id="pontok">0</span></p>
+        </div>
+    </div>
+
+    <div id="gameDiv">
+        <input type="button" value="&#9994" id="ko" onclick="jatek(this)" class="gombStyle">
+        <input type="button" value="&#9995" id="papir" onclick="jatek(this)" class="gombStyle">
+        <input type="button" value="&#9996" id="ollo" onclick="jatek(this)" class="gombStyle">
+    </div>
+    <div id="megjelenit">
+        <div class="floatDiv">
+            <p>A te választásod:</p>
+            <input type="button" value="" id="nyeroJatekos" class="gombStyle">
+        </div>
+        <div class="floatDiv">
+            <p id="nyertE"></p>
+            <input type="button" value="Play new game" onclick="ujJatek()">
+        </div>
+        <div class="floatDiv">
+            <p>Az ellenfél választása:</p>
+            <input type="button" id="gepiGeneralt" value="" class="gombStyle">
+        </div>
+    </div>
+</body>
+</html>
